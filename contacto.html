@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto y Sugerencias de Herramientas | EDU-IA</title>
+  <meta name="description" content="Ponte en contacto con el equipo editorial de EDU-IA. Envíanos tus dudas, sugerencias de nuevas herramientas de IA gratuitas o propuestas de colaboración educativa.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ejemplo.com/contacto.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Cabecera -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="EDU-IA - Inicio">
+        <div class="logo-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+          </svg>
+        </div>
+        <span class="logo-text">EDU<span>IA</span></span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Navegación principal">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="categoria.html" class="nav-link">Directorio de IA</a>
+        <a href="categoria.html?cat=escribir" class="nav-link">Escribir</a>
+        <a href="categoria.html?cat=diseno" class="nav-link">Diseño</a>
+        <a href="categoria.html?cat=productividad" class="nav-link">Productividad</a>
+        <a href="sobre.html" class="nav-link">Sobre Nosotros</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" aria-label="Cambiar modo de color" aria-pressed="false">
+          <svg class="icon-sun" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button class="menu-toggle" type="button" aria-label="Abrir menú de navegación" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menú móvil -->
+  <div class="mobile-nav" aria-label="Menú móvil">
+    <a href="index.html" class="nav-link">Inicio</a>
+    <a href="categoria.html" class="nav-link">Todas las herramientas</a>
+    <a href="categoria.html?cat=escribir" class="nav-link">IA para Escribir</a>
+    <a href="categoria.html?cat=estudiar" class="nav-link">IA para Estudiar</a>
+    <a href="categoria.html?cat=diseno" class="nav-link">IA para Diseño</a>
+    <a href="categoria.html?cat=productividad" class="nav-link">IA para Productividad</a>
+    <a href="sobre.html" class="nav-link">Sobre Nosotros</a>
+    <a href="contacto.html" class="nav-link active">Contacto</a>
+  </div>
+
+  <main class="main-content">
+    <section class="page-header">
+      <div class="container container-narrow">
+        <span class="badge badge-primary" style="margin-bottom: 0.85rem;">Estamos en Contacto</span>
+        <h1>Contacta con EDU-IA</h1>
+        <p class="lead">¿Tienes preguntas, quieres sugerir una herramienta de IA o proponer una colaboración?</p>
+      </div>
+    </section>
+
+    <div class="container container-narrow" style="padding-bottom: 5rem;">
+      <div class="contact-card">
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="contact-name" class="form-label">Nombre o Apodo *</label>
+            <input type="text" id="contact-name" class="form-control" placeholder="Ej. María Gómez" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-email" class="form-label">Correo Electrónico *</label>
+            <input type="email" id="contact-email" class="form-control" placeholder="nombre@correo.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-role" class="form-label">¿Cuál es tu perfil?</label>
+            <select id="contact-role" class="form-control">
+              <option value="estudiante">Estudiante (Secundaria / Universidad / Formación Profesional)</option>
+              <option value="profesor">Docente / Investigador / Formador</option>
+              <option value="creador">Creador de una herramienta de IA educativa</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-subject" class="form-label">Asunto *</label>
+            <input type="text" id="contact-subject" class="form-control" placeholder="Ej. Sugerencia de herramienta gratuita para matemáticas" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message" class="form-label">Mensaje *</label>
+            <textarea id="contact-message" class="form-control" placeholder="Cuéntanos con detalle tu consulta o sugerencia..." required></textarea>
+          </div>
+
+          <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1.5rem;">
+            Al enviar este formulario aceptas nuestra <a href="privacidad.html">Política de Privacidad</a>. Tus datos solo se utilizarán para responder a tu mensaje.
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">
+            Enviar Mensaje
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+
+          <div id="form-feedback" class="form-feedback" role="alert"></div>
+        </form>
+      </div>
+
+      <div style="margin-top: 3rem; text-align: center;">
+        <p style="color: var(--text-muted); font-size: 0.95rem;">
+          También puedes escribirnos directamente por correo electrónico a:<br>
+          <a href="mailto:[PLACEHOLDER-contacto@ejemplo.com]" style="font-weight: 700; font-size: 1.1rem;">[PLACEHOLDER-contacto@ejemplo.com]</a>
+        </p>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">
+          Solemos responder en un plazo de 24 a 48 horas laborables.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+              </svg>
+            </div>
+            <span class="logo-text">EDU<span>IA</span></span>
+          </a>
+          <p>Portal educativo independiente dedicado a analizar y democratizar el acceso a herramientas de inteligencia artificial gratuitas para la enseñanza y el aprendizaje.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Categorías</h4>
+          <div class="footer-links">
+            <a href="categoria.html?cat=escribir">IA para Escribir</a>
+            <a href="categoria.html?cat=estudiar">IA para Estudiar</a>
+            <a href="categoria.html?cat=diseno">IA para Diseño</a>
+            <a href="categoria.html?cat=productividad">IA para Productividad</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Audiencia</h4>
+          <div class="footer-links">
+            <a href="categoria.html?aud=estudiantes">Herramientas para Alumnos</a>
+            <a href="categoria.html?aud=profesores">Herramientas para Profesores</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal e Info</h4>
+          <div class="footer-links">
+            <a href="sobre.html">Sobre Nosotros</a>
+            <a href="privacidad.html">Política de Privacidad y Cookies</a>
+            <a href="contacto.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 EDU-IA. Todos los derechos reservados.</p>
+        <p class="footer-bottom-disclaimer">
+          <strong>Aviso de Afiliación:</strong> Este sitio web contiene enlaces de afiliados. Si realizas un registro o compra a través de ellos, podemos recibir una compensación económica sin coste adicional para ti.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

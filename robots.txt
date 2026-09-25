@@ -1,0 +1,6 @@
+# robots.txt para EDU-IA (Directorio de Herramientas de IA Educativa)
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ejemplo.com/sitemap.xml
