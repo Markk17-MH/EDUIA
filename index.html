@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herramientas de Inteligencia Artificial Gratuitas para Estudiantes y Profesores | EDU-IA</title>
+  <meta name="description" content="Directorio y comparativas de las mejores herramientas de inteligencia artificial gratuitas para estudiantes y docentes. Ahorra tiempo en apuntes, redacción, clases y presentaciones.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ejemplo.com/">
+
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Herramientas de IA Gratuitas para Estudiantes y Profesores | EDU-IA">
+  <meta property="og:description" content="Guías, reseñas y comparativas honestas de IA educativa 100% gratuita o con planes para colegios y universidades.">
+  <meta property="og:url" content="https://ejemplo.com/">
+  <meta property="og:image" content="https://ejemplo.com/assets/og-cover.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Herramientas de IA Gratuitas para Estudiantes y Profesores">
+  <meta name="twitter:description" content="Descubre qué herramientas de IA gratuita puedes utilizar hoy en tus clases o estudios.">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Estilos del sitio -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Datos estructurados Schema.org (WebSite + FAQPage) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://ejemplo.com/#website",
+        "url": "https://ejemplo.com/",
+        "name": "EDU-IA: Directorio de IA Educativa Gratuita",
+        "description": "Comparativas y guías de herramientas de inteligencia artificial gratuitas para la comunidad educativa.",
+        "inLanguage": "es"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Son realmente gratuitas las herramientas listadas en EDU-IA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Todas las herramientas analizadas cuentan con una versión 100% gratuita utilizable o un plan educativo gratuito específico para colegios, institutos y universidades sin requerir pagos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Es legal y ético usar inteligencia artificial en tareas académicas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, siempre que se use como asistente de aprendizaje, tutor de dudas o estructurador de ideas, respetando las políticas de integridad académica de cada institución educativa y citando las fuentes adecuadamente."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ======================================================================
+       Cabecera / Navegación
+       ====================================================================== -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="EDU-IA - Inicio">
+        <div class="logo-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+          </svg>
+        </div>
+        <span class="logo-text">EDU<span>IA</span></span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Navegación principal">
+        <a href="index.html" class="nav-link active">Inicio</a>
+        <a href="categoria.html" class="nav-link">Directorio de IA</a>
+        <a href="categoria.html?cat=escribir" class="nav-link">Escribir</a>
+        <a href="categoria.html?cat=diseno" class="nav-link">Diseño</a>
+        <a href="categoria.html?cat=productividad" class="nav-link">Productividad</a>
+        <a href="sobre.html" class="nav-link">Sobre Nosotros</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Botón de cambio de Modo Claro / Oscuro -->
+        <button class="theme-toggle" type="button" aria-label="Cambiar modo de color" aria-pressed="false">
+          <!-- Icono Sol (Modo oscuro activo -> cambiar a claro) -->
+          <svg class="icon-sun" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Icono Luna (Modo claro activo -> cambiar a oscuro) -->
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Botón Hamburguesa Móvil -->
+        <button class="menu-toggle" type="button" aria-label="Abrir menú de navegación" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menú móvil desplegable -->
+  <div class="mobile-nav" aria-label="Menú móvil">
+    <a href="index.html" class="nav-link">Inicio</a>
+    <a href="categoria.html" class="nav-link">Todas las herramientas</a>
+    <a href="categoria.html?cat=escribir" class="nav-link">IA para Escribir</a>
+    <a href="categoria.html?cat=estudiar" class="nav-link">IA para Estudiar</a>
+    <a href="categoria.html?cat=diseno" class="nav-link">IA para Diseño</a>
+    <a href="categoria.html?cat=productividad" class="nav-link">IA para Productividad</a>
+    <a href="sobre.html" class="nav-link">Sobre Nosotros</a>
+    <a href="contacto.html" class="nav-link">Contacto</a>
+  </div>
+
+  <main class="main-content">
+    <!-- ====================================================================
+         Hero Section
+         ==================================================================== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-badge-wrap">
+          <span class="badge badge-primary">Directorio Actualizado 2026</span>
+        </div>
+        <h1 class="hero-title">
+          Las Mejores <span>Herramientas de IA Gratuitas</span> para Aprender y Enseñar
+        </h1>
+        <p class="lead hero-subtitle">
+          Guías honestas, comparativas paso a paso y recursos sin costo pensados para ahorrar tiempo a estudiantes y profesores de todos los niveles.
+        </p>
+
+        <!-- Buscador Hero -->
+        <div class="search-box-hero">
+          <div class="search-input-wrapper">
+            <svg class="search-icon-inside" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="hero-search-input" class="search-input" placeholder="Buscar por herramienta, materia o necesidad (ej. 'redacción', 'resúmenes')..." aria-label="Buscar herramientas de IA">
+          </div>
+          <div class="quick-tags">
+            <span class="quick-tag-label">Tendencias:</span>
+            <a href="categoria.html?cat=escribir" class="quick-tag">Ensayos y Textos</a>
+            <a href="categoria.html?cat=diseno" class="quick-tag">Presentaciones</a>
+            <a href="categoria.html?aud=profesores" class="quick-tag">Para Profesores</a>
+            <a href="categoria.html?aud=estudiantes" class="quick-tag">Para Estudiantes</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Espacio Reservado AdSense: Cabecera (Leaderboard)
+         ==================================================================== -->
+    <div class="container">
+      <div id="adsense-header" class="adsense-placeholder adsense-leaderboard" role="region" aria-label="Espacio publicitario superior">
+        <span class="ad-label">Espacio Publicitario Google AdSense</span>
+        <p class="ad-note">[HUECO RESERVADO: Reemplazar este contenedor por tu bloque &lt;ins class="adsbygoogle" data-ad-slot="..."&gt; tras la aprobación]</p>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         Categorías Principales
+         ==================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="section-tag">Navegación Temática</span>
+          <h2>Explora por Categoría Educativa</h2>
+          <p class="section-subtitle">Filtra las herramientas según el tipo de tarea que necesitas resolver hoy en clase o en casa.</p>
+        </div>
+
+        <div class="categories-grid">
+          <!-- Categoría 1: Escribir -->
+          <a href="categoria.html?cat=escribir" class="category-card">
+            <div class="category-icon-wrapper purple">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                <path d="M2 2l7.586 7.586"></path>
+                <circle cx="11" cy="11" r="2"></circle>
+              </svg>
+            </div>
+            <div>
+              <h3>IA para Escribir</h3>
+              <p>Corrección gramatical, síntesis de textos extensos y generación de esquemas de trabajo.</p>
+              <span class="category-meta">Ver guías &rarr;</span>
+            </div>
+          </a>
+
+          <!-- Categoría 2: Estudiar -->
+          <a href="categoria.html?cat=estudiar" class="category-card">
+            <div class="category-icon-wrapper blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <div>
+              <h3>IA para Estudiar</h3>
+              <p>Tutores virtuales 24/7, simuladores de exámenes interactivos y fichas de memorización rápida.</p>
+              <span class="category-meta">Ver guías &rarr;</span>
+            </div>
+          </a>
+
+          <!-- Categoría 3: Diseño -->
+          <a href="categoria.html?cat=diseno" class="category-card">
+            <div class="category-icon-wrapper emerald">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                <polyline points="21 15 16 10 5 21"></polyline>
+              </svg>
+            </div>
+            <div>
+              <h3>IA para Diseño</h3>
+              <p>Diapositivas automáticas, infografías didácticas e ilustraciones conceptuales sin coste.</p>
+              <span class="category-meta">Ver guías &rarr;</span>
+            </div>
+          </a>
+
+          <!-- Categoría 4: Productividad -->
+          <a href="categoria.html?cat=productividad" class="category-card">
+            <div class="category-icon-wrapper amber">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <div>
+              <h3>IA para Productividad</h3>
+              <p>Planificación de lecciones, transcriptor de grabaciones de clase y organizadores de apuntes.</p>
+              <span class="category-meta">Ver guías &rarr;</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Herramientas Destacadas (Artículos de Ejemplo)
+         ==================================================================== -->
+    <section class="section" style="background-color: var(--bg-surface); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="section-header" style="flex-direction: row; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="section-tag">Análisis y Pruebas Reales</span>
+            <h2>Herramientas Gratuitas Recomendadas</h2>
+            <p class="section-subtitle">Evaluadas en profundidad teniendo en cuenta privacidad, facilidad de uso y límites de su versión gratuita.</p>
+          </div>
+          <a href="categoria.html" class="btn btn-secondary btn-sm">Ver Todo el Directorio &rarr;</a>
+        </div>
+
+        <div class="tools-grid">
+          <!-- Artículo 1: ChatGPT -->
+          <article class="tool-card">
+            <div class="tool-card-header">
+              <div class="tool-brand">
+                <div class="tool-avatar">GPT</div>
+                <div class="tool-brand-info">
+                  <h3><a href="articulos/chatgpt-gratis-estudiantes.html">ChatGPT Free (OpenAI)</a></h3>
+                  <div class="tool-rating">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <span>4.8</span>
+                    <span style="color: var(--text-muted); font-size: 0.78rem;">(320 reseñas)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tool-card-badges">
+              <span class="badge badge-accent">IA para Escribir</span>
+              <span class="badge badge-audience estudiante">Para Estudiantes</span>
+              <span class="badge badge-success">Plan Gratuito</span>
+            </div>
+            <p class="tool-card-desc">
+              [PLACEHOLDER - El modelo gratuito más versátil para resolver dudas paso a paso, redactar esquemas iniciales y traducir o resumir lecturas académicas densas sin pagar suscripción.]
+            </p>
+            <ul class="tool-features-list">
+              <li class="tool-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>[PLACEHOLDER - Respuestas y explicaciones en lenguaje claro]</span>
+              </li>
+              <li class="tool-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>[PLACEHOLDER - No requiere tarjeta de crédito]</span>
+              </li>
+            </ul>
+            <div class="tool-card-footer">
+              <a href="articulos/chatgpt-gratis-estudiantes.html" class="btn btn-secondary btn-sm" style="flex: 1;">Leer Reseña Completa</a>
+              <a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary btn-sm" title="Enlace oficial de afiliado">Visitar</a>
+            </div>
+          </article>
+
+          <!-- Artículo 2: Canva -->
+          <article class="tool-card">
+            <div class="tool-card-header">
+              <div class="tool-brand">
+                <div class="tool-avatar">CNV</div>
+                <div class="tool-brand-info">
+                  <h3><a href="articulos/canva-ia-profesores.html">Canva Magic Studio</a></h3>
+                  <div class="tool-rating">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <span>4.9</span>
+                    <span style="color: var(--text-muted); font-size: 0.78rem;">(245 reseñas)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tool-card-badges">
+              <span class="badge badge-accent">IA para Diseño</span>
+              <span class="badge badge-audience docente">Para Profesores</span>
+              <span class="badge badge-success">100% Gratis para Docentes</span>
+            </div>
+            <p class="tool-card-desc">
+              [PLACEHOLDER - Herramienta visual imprescindible para docentes que desean crear presentaciones interactivas, fichas de trabajo e infografías con IA de forma 100% gratuita.]
+            </p>
+            <ul class="tool-features-list">
+              <li class="tool-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>[PLACEHOLDER - Generación instantánea de diapositivas]</span>
+              </li>
+              <li class="tool-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>[PLACEHOLDER - Licencia educativa premium gratis]</span>
+              </li>
+            </ul>
+            <div class="tool-card-footer">
+              <a href="articulos/canva-ia-profesores.html" class="btn btn-secondary btn-sm" style="flex: 1;">Leer Reseña Completa</a>
+              <a href="https://www.canva.com/education/" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary btn-sm" title="Enlace oficial de afiliado">Visitar</a>
+            </div>
+          </article>
+
+          <!-- Artículo 3: Notion -->
+          <article class="tool-card">
+            <div class="tool-card-header">
+              <div class="tool-brand">
+                <div class="tool-avatar">NTN</div>
+                <div class="tool-brand-info">
+                  <h3><a href="articulos/notion-ia-productividad.html">Notion IA Educación</a></h3>
+                  <div class="tool-rating">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <span>4.7</span>
+                    <span style="color: var(--text-muted); font-size: 0.78rem;">(198 reseñas)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tool-card-badges">
+              <span class="badge badge-accent">IA para Productividad</span>
+              <span class="badge badge-audience">Ambos Públicos</span>
+              <span class="badge badge-success">Plan Gratuito</span>
+            </div>
+            <p class="tool-card-desc">
+              [PLACEHOLDER - El espacio todo-en-uno que organiza apuntes por asignatura, resume reuniones o lecciones y extrae listas de tareas automáticas con plan académico gratuito.]
+            </p>
+            <ul class="tool-features-list">
+              <li class="tool-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>[PLACEHOLDER - Síntesis y extracción de conclusiones clave]</span>
+              </li>
+              <li class="tool-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>[PLACEHOLDER - Integración completa con correo institucional]</span>
+              </li>
+            </ul>
+            <div class="tool-card-footer">
+              <a href="articulos/notion-ia-productividad.html" class="btn btn-secondary btn-sm" style="flex: 1;">Leer Reseña Completa</a>
+              <a href="https://www.notion.so/product/ai" target="_blank" rel="noopener noreferrer nofollow" class="btn btn-primary btn-sm" title="Enlace oficial de afiliado">Visitar</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Espacio Reservado AdSense: Mitad de Contenido (Banner)
+         ==================================================================== -->
+    <div class="container">
+      <div id="adsense-in-article" class="adsense-placeholder adsense-banner" role="region" aria-label="Espacio publicitario intermedio">
+        <span class="ad-label">Espacio Publicitario Google AdSense</span>
+        <p class="ad-note">[HUECO RESERVADO: Bloque publicitario adaptable horizontal en mitad de página index]</p>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         Sección Audiencias: Estudiantes vs Profesores
+         ==================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="ideal-grid">
+          <div class="ideal-column estudiantes" style="padding: 2rem; border-radius: var(--radius-lg); background-color: var(--bg-surface); border: 1px solid var(--border-color);">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+              <span class="badge badge-audience estudiante">Para Estudiantes</span>
+              <h3 style="margin-bottom: 0;">Aprende Más Rápido y Mejor</h3>
+            </div>
+            <p>La IA no es para que hagan tus deberes, sino tu tutor personal paciente las 24 horas del día:</p>
+            <ul>
+              <li><strong>Desbloqueo creativo:</strong> Pídele que te sugiera perspectivas o esquemas para tu tesis o redacción.</li>
+              <li><strong>Explicación multinivel:</strong> "¿Puedes explicarme este teorema como si tuviera 12 años?".</li>
+              <li><strong>Preparador de exámenes:</strong> Transforma tus propios apuntes en tarjetas de preguntas tipo test.</li>
+            </ul>
+            <a href="categoria.html?aud=estudiantes" class="btn btn-secondary btn-sm" style="margin-top: 1.5rem;">Ver IA para Estudiantes &rarr;</a>
+          </div>
+
+          <div class="ideal-column profesores" style="padding: 2rem; border-radius: var(--radius-lg); background-color: var(--bg-surface); border: 1px solid var(--border-color);">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+              <span class="badge badge-audience docente">Para Profesores</span>
+              <h3 style="margin-bottom: 0;">Recupera Horas de Preparación</h3>
+            </div>
+            <p>Automatiza el trabajo mecánico para dedicar tu tiempo a lo que realmente importa: la enseñanza humana:</p>
+            <ul>
+              <li><strong>Rúbricas y programaciones:</strong> Genera criterios de evaluación alineados con tu plan de estudios.</li>
+              <li><strong>Diferenciación didáctica:</strong> Adapta el mismo texto para distintos niveles de lectura en segundos.</li>
+              <li><strong>Actividades interactivas:</strong> Diseña cuestionarios, dilemas de debate y casos de estudio reales.</li>
+            </ul>
+            <a href="categoria.html?aud=profesores" class="btn btn-secondary btn-sm" style="margin-top: 1.5rem;">Ver IA para Docentes &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Preguntas Frecuentes (FAQ interactiva con Schema.org)
+         ==================================================================== -->
+    <section class="section" style="background-color: var(--bg-subtle);">
+      <div class="container container-narrow">
+        <div class="section-header centered">
+          <span class="section-tag">Resolvemos tus Dudas</span>
+          <h2>Preguntas Frecuentes</h2>
+          <p class="section-subtitle">Todo lo que debes saber antes de introducir herramientas de IA en tus rutinas escolares o universitarias.</p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>¿Son realmente 100% gratuitas estas herramientas?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Revisamos minuciosamente cada aplicación. Solo recomendamos aquellas que ofrecen un plan gratuito ilimitado en el tiempo o con límites holgados para el día a día escolar, o bien planes pro 100% subvencionados para centros educativos acreditados (como Canva para Educación).</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>¿Cómo se financia esta página web?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Para mantener el sitio libre y accesible para todos, incluimos publicidad no intrusiva de Google AdSense y algunos enlaces de afiliados. Si te registras a través de ellos, podemos percibir una pequeña comisión sin que tú pagues un solo céntimo de más. Nuestra línea editorial es siempre independiente.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>¿Pueden los detectores de IA sancionar a un estudiante?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Los detectores de texto por IA suelen cometer falsos positivos (marcando textos humanos como generados por máquina). Por ello recomendamos usar la IA para estructurar, corregir y comprender, redactando siempre el trabajo final con tus propias palabras y citando el uso de la herramienta.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Espacio Reservado AdSense: Footer
+         ==================================================================== -->
+    <div class="container">
+      <div id="adsense-footer" class="adsense-placeholder adsense-leaderboard" role="region" aria-label="Espacio publicitario inferior">
+        <span class="ad-label">Espacio Publicitario Google AdSense</span>
+        <p class="ad-note">[HUECO RESERVADO: Bloque publicitario adaptable inferior para index.html]</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- ======================================================================
+       Pie de Página
+       ====================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+              </svg>
+            </div>
+            <span class="logo-text">EDU<span>IA</span></span>
+          </a>
+          <p>Portal educativo independiente dedicado a analizar y democratizar el acceso a herramientas de inteligencia artificial gratuitas para la enseñanza y el aprendizaje.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Categorías</h4>
+          <div class="footer-links">
+            <a href="categoria.html?cat=escribir">IA para Escribir</a>
+            <a href="categoria.html?cat=estudiar">IA para Estudiar</a>
+            <a href="categoria.html?cat=diseno">IA para Diseño</a>
+            <a href="categoria.html?cat=productividad">IA para Productividad</a>
+            <a href="categoria.html">Directorio Completo</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Audiencia</h4>
+          <div class="footer-links">
+            <a href="categoria.html?aud=estudiantes">Herramientas para Alumnos</a>
+            <a href="categoria.html?aud=profesores">Herramientas para Profesores</a>
+            <a href="articulos/chatgpt-gratis-estudiantes.html">Guía ChatGPT Estudiantes</a>
+            <a href="articulos/canva-ia-profesores.html">Guía Canva Docentes</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal e Info</h4>
+          <div class="footer-links">
+            <a href="sobre.html">Sobre Nosotros</a>
+            <a href="privacidad.html">Política de Privacidad y Cookies</a>
+            <a href="contacto.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 EDU-IA. Todos los derechos reservados.</p>
+        <p class="footer-bottom-disclaimer">
+          <strong>Aviso de Afiliación:</strong> Este sitio web contiene enlaces de afiliados. Si realizas un registro o compra a través de ellos, podemos recibir una compensación económica sin coste adicional para ti.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/tools-data.js"></script>
+  <script src="js/search-filter.js"></script>
+</body>
+</html>
